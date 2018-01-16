@@ -1,0 +1,66 @@
+.main-nav {
+    width: 100vw;
+    height: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 150px;
+    height: 38px;
+}
+
+.logo-box {
+    padding-left: 20px;
+    padding-top: 5px;
+    flex: 1
+}
+
+.discount-header {
+    width: 100vw;
+    height: 50px;
+    background-color: #37454d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.main-header {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 0vw;
+    margin-top: -200px;
+    padding-bottom: 220px;
+    text-align: center;
+}
+
+.sub-header {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-left: 0vw;
+    margin-top: -200px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.navbar-brand>img{
+    width: 150px;
+    height: 38px; 
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    margin-top: -8px;
+    padding-bottom: 10px;
+}

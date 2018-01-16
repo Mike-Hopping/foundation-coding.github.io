@@ -1,0 +1,26 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "slug": "hotels",
+            "title": "Hotels 1-2 People",
+            "category": "Hotel"
+        }, {
+            "id": "2",
+            "slug": "hostels",
+            "title": "Hostels 1-6 People",
+            "category": "Hotel"
+        }, {
+            "id": "3",
+            "slug": "motels",
+            "title": " Motels 2-4 People",
+            "category": "Hotel"
+        }, {
+            "id": "4",
+            "slug": "houses",
+            "title": " Houses 1-4 People",
+            "category": "Hotel"
+        }
+        
+    ]
+}

@@ -1,0 +1,121 @@
+.btn-default {
+    margin-left: 80vw;
+}
+
+#rooms{
+    width: 160px;
+    height: 25px;
+    color: black;
+}
+
+#adults{
+    width: 160px;
+    height: 25px;
+    color: black;
+}
+
+#children{
+    width: 160px;
+    height: 25px;
+    color: black;
+}
+
+#options{
+    width: 160px;
+    height: 25px;
+    color: black;
+}
+
+.list-price button{
+    margin-top: 50px;
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: #1e6fa8;
+    color: white;
+}
+
+.list-price button:hover{
+    opacity: 0.6;
+}
+
+.page-btns{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 50px;
+    flex: 1
+}
+
+.page-btns a{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #1e6fa8;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.page-btns a:hover{
+    opacity: 0.6;
+}
+
+.page-btns-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.back-btn-container{
+    height: 40px;
+}
+
+.back-btn-container a{
+    width: 100px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 20vw;
+}
+
+.list-price a{
+    margin-top: 50px;
+    margin-right: 20px;
+    padding-top: 10px;
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: #1e6fa8;
+    color: white; 
+    text-align: center; 
+}
+
+.list-price a:hover{
+    opacity: 0.6;
+}
+
+#btn{
+    height: 25px;
+    width: 160px;
+}
+
+#btn:hover{
+    opacity: 0.6;
+}
+
+.submit-btn p{
+    font-size: 14pt;
+    padding-left: 20px;
+}
+
+.price-calc-detail{
+    padding-bottom: 20px;
+}
+
+.price-calc-detail btn{
+    margin-bottom: 20px;
+}
+
+.category-list--item:focus {
+    background:#1e6fa8;
+    color: white;
+  }

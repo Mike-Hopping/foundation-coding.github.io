@@ -1,0 +1,157 @@
+.features-main{
+    width: 100vw;
+    height: 100px;
+    background-color: #c8c8c8;
+    display: flex;
+    flex-direction: row;
+}
+
+.transport-main{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    color: #1e6fa8;
+    font-size: 12pt;
+    padding-top: 30px;
+    flex: 1
+}
+
+.planning-main{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    color: #0da633;
+    font-size: 12pt;
+    padding-top: 30px;
+    flex: 1
+}
+
+.sightseeing-main{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    color: #c94a30;
+    font-size: 12pt;
+    padding-top: 30px;
+    flex: 1
+}
+
+.planning-quote{
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: #c8c8c8;
+}
+
+.planning-header{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    color: #0da633;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+.planning-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 12pt;
+    padding-top: 0px;
+}
+
+#recommended{
+    height: 514px;
+    margin-top: 50px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 0px;
+}
+
+.recommended-row{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding-top: 4px;
+    padding-left: 4px;
+    
+}
+
+.promo-box{
+    width: 374px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    flex: 1
+}
+
+.promo-box:hover{
+    opacity: 0.7;
+}
+
+.promo-box p{
+    padding-top: 125px;
+}
+
+.promo-box1{
+    background-image: url('../assets/hotels/heritage.jpg'); height: 250px; width: 374px;
+    background-size: contain;
+    margin-right: 4px;
+}
+
+.promo-box2{
+    background-image: url('../assets/hotels/copthorne.jpg'); height: 250px; width: 374px;
+    background-size: contain;
+    margin-right: 4px;
+}
+
+.promo-box3{
+    background-image: url('../assets/hotels/heartland.jpg'); height: 250px; width: 374px;
+    background-size: contain;
+}
+
+.promo-box4{
+    background-image: url('../assets/hotels/sofitel.jpg'); height: 250px; width: 374px;
+    background-size: contain;
+    margin-right: 4px;
+}
+
+.promo-box5{
+    background-image: url('../assets/hotels/mercure.jpg'); height: 250px; width: 374px;
+    background-size: contain;
+    margin-right: 4px;
+}
+
+.promo-box6{
+    background-image: url('../assets/hotels/the-rees.jpg'); height: 250px; width: 374px;
+    background-size: contain;
+}
+
+.info-container{
+    width: 100vw;
+    height: 250px;
+    margin-top: 100px;
+    background-color: #37454d;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.info{
+    padding-top: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    flex: 1
+}
+
+.included{
+    margin-top: 10px;
+    color: #0da633;
+}

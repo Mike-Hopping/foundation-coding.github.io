@@ -1,0 +1,420 @@
+{
+    "hotels":  
+[
+        {
+            "id": "aspen hotel",
+            "name": "Aspen Hotel",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/aspen2.jpg",
+            "price": "NZD 157",
+            "stars": "3.5",
+            "meals": "Breakfast",
+            "rooms": "Double Room with Lake View 1 King Bed",
+            "description": "Features stunning views over Lake Wakatipu, plus tea/coffee making facilities. Some have a private balcony. Please note that breakfast inclusive rates include continental breakfast for 2 people. Additional persons are charged at NZD 15 per person"
+        }, {
+            "id": "copthorne hotel",
+            "name": "Copthorne Hotel",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/copthorne.jpg",
+            "price": "NZD 157",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "heartland hotel",
+            "name": "Heartland Hotel",
+            "location":"queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/heartland.jpg",
+            "price": "NZD 157",
+            "stars": "3.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "heritage hotel",
+            "name": "Heritage Hotel",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/heritage.jpg",
+            "price": "NZD 157",
+            "stars": "4.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "mercure resort",
+            "name": "Mercure Resort",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/mercure.jpg",
+            "price": "NZD 157",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "millenium hotel",
+            "name": "Millenium Hotel",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/millenium.jpg",
+            "price": "NZD 157",
+            "stars": "4.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "nugget point",
+            "name": "Nugget Point",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/nugget-point.jpg",
+            "price": "NZD 157",
+            "stars": "4.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "peppers beacon",
+            "name": "Peppers Beacon",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/peppers-beacon2.jpg",
+            "price": "NZD 157",
+            "stars": "4.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "rydges hotel",
+            "name": "Rydges Hotel",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/rydges2.jpg",
+            "price": "NZD 157",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "scenic suites",
+            "name": "Scenic Suites",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/scenic-suites2.jpg",
+            "price": "NZD 157",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "sofitel hotel",
+            "name": "Sofitel Hotel",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/sofitel.jpg",
+            "price": "NZD 157",
+            "stars": "5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "the rees hotel",
+            "name": "The Rees Hotel",
+            "location": "queenstown",
+            "category": "hotels",
+            "image": "assets/hotels/the-rees.jpg",
+            "price": "NZD 157",
+            "stars": "5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "absoloot value",
+            "name": "Absoloot Value",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/absoloot.jpg",
+            "price": "NZD 30",
+            "stars": "4",
+            "meals": "Breakfast",
+            "rooms": "Up to Six Single Beds in Mixed Dormitory Room",
+            "description":"This property is 2 minutes walk from the beach. Absoloot Value Accommodation is located in Queenstown, 43.5 km from Cromwell and 17.7 km from Arrowtown. Certain rooms include a sitting area for your convenience. Certain rooms feature views of the mountains or lake. A flat-screen TV is featured."
+        }, {
+            "id": "alpine lodge",
+            "name": "Alpine Lodge",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/alpine.jpg",
+            "price": "NZD 30",
+            "stars": "3.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "base queenstown",
+            "name": "Base Queenstown",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/base.jpg",
+            "price": "NZD 30",
+            "stars": "5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "hippo lodge",
+            "name": "Hippo Lodge",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/hippo.jpg",
+            "price": "NZD 30",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "nomads",
+            "name": "Nomads Hostel",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/nomads.jpg",
+            "price": "NZD 30",
+            "stars": "5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "pinewood",
+            "name": "Pinewood Lodge",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/pinewood.jpg",
+            "price": "NZD 30",
+            "stars": "3.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "sir cedrics",
+            "name": "Sir Cedrics Hostel",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/sir-cedrics.jpg",
+            "price": "NZD 30",
+            "stars": "4.5",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "southern laughter",
+            "name": "Southern Laughter",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/southern-laughter.jpg",
+            "price": "NZD 30",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "the black sheep",
+            "name": "The Black Sheep",
+            "location": "queenstown",
+            "category": "hostels",
+            "image": "assets/hostels/the-black-sheep.jpg",
+            "price": "NZD 30",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "capricorn lake view villa",
+            "name": "Capricorn Lake View Villa",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/capricorn.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "Barbeque Lunch",
+            "rooms": "Two Bedroom Villa with 1 Large Double Bed and Two Single Beds.",
+            "description": "Capricorn Lake View Villa is a detached villa with a balcony, located in Queenstown. It provides free private parking. A dishwasher, an oven and a microwave are provided in the kitchen. A flat-screen TV is provided. Other facilities at Capricorn Lake View Villa include a barbecue."
+        }, {
+            "id": "coronation lodge",
+            "name": "Coronation Lodge",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/coronation.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "earnslaw villa",
+            "name": "Earnslaw Villa",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/earnslaw.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "green stone lake view villa",
+            "name": "Green Stone Lake View Villa",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/green-stone.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "manor park lodge",
+            "name": "Manor Park Lodge",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/manor-park.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "melbourne lodge bed & breakfast",
+            "name": "Melbourne Lodge Bed & Breakfast",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/melbourne-lodge.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "pencarrow luxury lodge",
+            "name": "Pencarrow Luxury Lodge",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/pencarrow.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "reavers lodge",
+            "name": "Reavers Lodge",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/reavers-lodge.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "the cottage lodge",
+            "name": "The Cottage Lodge",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/the-cottage.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "33 lomond lodge",
+            "name": "33 Lomond Lodge",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/33-lomond-lodge.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "Barbeque Lunch",
+            "rooms": "Two Bedroom Lake View Apartment with 1 Single Bed, 1 Extra-Large Double Bed, and 1 Bunk Bed.",
+            "description": "This property is a 4-minute walk from the beach. Featuring free WiFi and a barbecue, 33 Lomond Lodge Motel & Apartments offers quality facilities and accommodation in Queenstown."
+        }, {
+            "id": "abba court motel",
+            "name": "Abba Court Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/abba-court-motel.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "alexis motel & apartments",
+            "name": "Alexis Motel & Apartments",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/alexis-motel.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "amber lodge motel",
+            "name": "Amber Lodge Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/amber-lodge-motel.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "autoline motel",
+            "name": "Autoline Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/autoline.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "bella vista motel",
+            "name": "Bella Vista Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/bella-vista.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "colonial village",
+            "name": "Colonial Village Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/colonial-village.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "hurleys of queenstown motel",
+            "name": "Hurley's of Queenstown Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/hurley's.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "lakeside-motel",
+            "name": "Lakeside Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/lakeside-motel.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "the lodges motel",
+            "name": "The Lodges Motel",
+            "location": "queenstown",
+            "category": "motels",
+            "image": "assets/motels/the-lodges.jpg",
+            "price": "NZD 90",
+            "stars": "4",
+            "meals": "",
+            "description": ""
+        }, {
+            "id": "shotover lodge",
+            "name": "Shotover Lodge",
+            "location": "queenstown",
+            "category": "houses",
+            "image": "assets/houses/shotover-lodge.jpg",
+            "price": "NZD 240",
+            "stars": "4",
+            "meals": "Dinner Buffet",
+            "description": "Shotover Lodge offers comfortable rooms with a private balcony or patio, just 2 minutes' drive from the Shotover Jet and 5 minutes' drive from central Queenstown. It offers a spacious guest lounge with a gas fireplace and a flat-screen TV. Guests at Shotover Lodge Queenstown have access to a fully equipped restaurant and laundry facilities. Wi-Fi is available in rooms and in public areas."
+        }
+]
+}

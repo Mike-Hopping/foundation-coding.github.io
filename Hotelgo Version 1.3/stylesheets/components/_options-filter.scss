@@ -1,0 +1,40 @@
+.searchbox {
+    width: 25vw;
+}
+
+.form-group {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.datepicker{
+    width: 350px;
+    height: 25px;
+    text-align: center;
+}
+
+.drop-down-container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.check-in-box{
+    margin-right: 20px;
+}
+
+.check-out-box{
+    margin-right: 20px;
+}
+
+.select{
+    width: 200px;
+    height: 40px;
+    margin-right: 24px;
+    flex: 1
+}
+
+.dropdown-menu{
+    max-width: 500px;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hotelgo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+        <script type="text/javascript" src="engine1/jquery.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css" />
+        <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/0fa9a00100.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                          <img alt="Brand" src="assets/hotelgo.png" alt= "Hotelgo Logo">
+                        </a>
+                      </div>
+                    </div>
+                  </nav>
+            <div class= "discount-header"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> Sign up with Hotelgo to receive 20% off selected deals!</div>
+        </header>
+        <section id="home" class="screen">
+            <div class="hero-img">
+            <div class="filters">
+                <div class="container">
+                    <h1 class= "main-header">Book Your Hotel Online</h1>
+                    <h3 class= "sub-header">Choose from 1000's of accomodation options worldwide</h2>
+                        <div class="col">
+                            <div class="form-group">
+                                <input id = "searchbox" class="form-control" type="text" name="searchbox" value="Enter a Destination">
+                                <div class="drop-down-container">
+                                    <div class="check-in-box">
+                                    <input type="text" class= "datepicker" name="datefilter" value="Enter Check In and Check Out Dates">
+                                    </div>
+                                    <div class="category-list">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <div class="features-main">
+                <div class="transport-main">
+                    <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><p>Meal Options Available</p>
+                </div>
+                <div class="sightseeing-main">
+                    <span class="glyphicon glyphicon-camera" aria-hidden="true"></span><p>Sightseeing Guides</p>
+                </div>
+                <div class="planning-main">
+                    <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><p>Travel Planning Guides</p>
+                </div>
+            </div>
+        </section>
+        
+         <!-- JQUERY SLIDER -->
+                <section id="about" class="screen">
+                        <div class="details-slider">
+                           
+                        <div id="wowslider-container1">
+                            <div class="ws_images"><ul>
+                                    <li><img src="data1/images/aspenhotel.jpg" alt="" title="" id="wows1_0"/></li>
+                                </ul></div>
+                                <div class="ws_thumbs">
+                                <div>
+                                    <a href="data1/images/aspenhotel.jpg" title=""><img src="data1/tooltips/aspenhotel.jpg" alt="" /></a>
+                                    <a href="data1/images/aspenfoyer.png" title=""><img src="data1/tooltips/aspenfoyer.png" alt="" /></a>
+                                    <a href="data1/images/aspenbedroom.jpg" title=""><img src="data1/tooltips/aspenbedroom.jpg" alt="" /></a>
+                                    <a href="data1/images/aspenfacilities.jpg" title=""><img src="data1/tooltips/aspenfacilities.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap carousel example</a> by WOWSlider.com v8.8</div>
+                            <div class="ws_shadow"></div>
+                            </div>	
+                            <script type="text/javascript" src="engine1/wowslider.js"></script>
+                            <script type="text/javascript" src="engine1/script.js"></script>
+                        </div>
+                        <div class="back-btn-container">
+                                <a data-screen="home" class="screen-link active" href="#">Back</a>
+                            </div>
+
+                        <!-- PAGE DETAILS -->
+
+                        <div class="container">
+                            <div class="details">
+                                <div class="page-info">
+                                   
+                                </div>
+                                <div class="jumbotron">
+                                        <h4>Enter Accomodation Price</h4>
+                                        <form>
+                                            <div class="form-group" id="price-calc-form">
+                                                <label for="price">Price Per Night</label>
+                                                <input type="text" class="form-control" name="price" value="0">
+                                            </div>
+                                
+                                            <div class="form-group">
+                                                <label for="quantity">
+                                                    Number of Nights
+                                                    <span class="label label-primary quantity-label">1</span>
+                                                </label>
+                                                <input type="range" class="form-control" name="quantity" value="1" min="1" max="15" step="1">
+                                            </div>
+                                        </form>
+                                            <div class="text-right text-giant total"></div>
+                                </div>
+                            </div>
+                            <div class="features-details">
+                                    <div class="details1">
+                                        <i class="fa fa-wifi" aria-hidden="true"></i><br> Free Wifi
+                                    </div>
+                    
+                                    <div class="details2">
+                                        <i class="fa fa-coffee" aria-hidden="true"></i><br>Meal Included
+                                    </div>
+                                        
+                                    <div class="details3">
+                                        <i class="fa fa-car" aria-hidden="true"></i></i><br>Parking
+                                    </div>
+                                </div>
+                                    
+                                <div class="options-desc">
+                                    <h4>Other Options</h4>
+                                </div>
+                            </div>  
+                        </div>
+                            
+                </section>
+
+                <!-- SEARCH LIST SCREEN STARTS HERE -->
+
+                <div class="container">
+                    
+                    <div class="hotel-list"></div>
+                </div>
+
+        <!-- PROMOTIONAL SECTION -->
+
+        <div class="planning-quote">
+            <p class="planning-header">Planning Your Trip</p>
+            <p class="planning-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+       <div class="container">
+           <h4>Recommended Accomodation</h4>
+           <section id="recommended" class="promotional">
+               
+               <div class="recommended-row">
+                   <div class="promo-box1">
+                       <div class="promo-box"><p>Heritage Hotel</p>
+                   </div>
+                   </div>
+                   <div class="promo-box2">
+                        <div class="promo-box"><p>Copthorne Hotel</p>
+                   </div>
+                   </div>
+                   <div class="promo-box3">
+                        <div class="promo-box"><p>Heartland Hotel</p>
+                   </div>
+                   </div>
+               </div>
+               <div class="recommended-row">
+                   <div class="promo-box4">
+                        <div class="promo-box"><p>Sofitel Hotel</p>
+                   </div>
+                   </div>
+                   <div class="promo-box5">
+                   <div class="promo-box"><p>Mercure Hotel</p>
+                   </div>
+                   </div>
+                   <div class="promo-box6">
+                   <div class="promo-box"><p>The Rees Hotel</p>
+                   </div>
+                   </div>
+               </div>
+           </section>
+       </div>
+        <footer>
+            <div class="info-container">
+                <div class="info"><p>Help</p><br><ul>Contact Us</ul><ul>FAQS</ul><ul>Privacy Policy</ul></div>
+                <div class="info"><p>About</p><br><ul>Careers</ul><ul>Media</ul><ul>Rewards</ul></div>
+                <div class="info"><p>Destinations</p><br><ul>Countries</ul><ul>Cities</ul></div>
+                <div class="info"><p>Partner With Us</p><br><ul>Properties</ul><ul>Affiliates</ul></div>
+            </div>
+        </footer>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src = "js/main.js"></script>
+    </body>
+</html>
